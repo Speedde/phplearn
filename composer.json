@@ -1,0 +1,22 @@
+{
+    "name": "bohdan/php",
+    "description": "New Study",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "~7.8.0",
+        "fakerphp/faker": "2.0.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bohdan\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bohdan Sokol",
+            "email": "bohdasokol@ukr.net"
+        }
+    ],
+    "minimum-stability": "dev"
+}
